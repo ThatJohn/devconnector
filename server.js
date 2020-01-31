@@ -19,4 +19,4 @@ app.use('/api/users', require('./routes/api/users'));
 
 const PORT = process.env.PORT;
 
-app.listen(PORT, () => console.log(`Server started on ${PORT}`));
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
